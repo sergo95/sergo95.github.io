@@ -1,0 +1,244 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    height: 50px;
+    background-color: #212121;      
+}
+
+.menu {
+    padding: 13px 70px;
+    margin: 0; 
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 28px; 
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    height: 84px;
+}
+
+.subheader .subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    text-align: right;
+    font-weight: 300;
+    font-size: 12px;
+    color:#FFFFFF;
+}
+
+.subheader .subheader_phone {
+    display: block;
+    text-align: right;
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subheader .subheader_btn{
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0px -3px 0px 3px rgba(0, 0, 0, 0.12);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.promo {
+    margin-top: 50px;
+    min-height: 800px;
+    padding: 150px 0 135px 0;
+    background: url(../img/main_background.png) center center/cover no-repeat;
+
+}
+
+.promo .promo_header {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700 ;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.promo .promo_subheader {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px; 
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 22px;
+}
+
+.promo .promo_descr {
+    margin-top: 23px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    border-radius: 8px;
+    box-shadow: inset 0px -3px 0px 3px rgba(0, 0, 0, 0.12);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.benefits {
+    min-height: 900px;
+    padding: 70px 0 65px 0;
+}
+
+.benefits .benefits_block {
+    margin: 0 auto;
+    padding: 5px 12px;
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    font-weight: 300;
+    font-size: 11px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.benefits .benefits_title {
+    margin-bottom: 0;
+    margin-top: 38px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    color: #222222;
+}
+
+.benefits .benefits_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.benefits .circle_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    margin-right: 26px;
+    border-radius: 100%;
+    background: #1EACC7;
+}
+
+.benefits .item_descr {
+    width: 343px;
+    text-align:left;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}   
+
+.benefits .item_descr span {
+    font-size: 17px;
+    font-weight: 400;
+    color: #1EACC7;
+}
+
+.mobile {
+    min-height: 864px;
+    padding: 48px 0 80px 0;
+    background: url(/src/img/mobile_background.png) center center/cover no-repeat;
+}
+
+.mobile .tabel {
+    margin: 0 auto;
+    padding: 5px 12px;
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    font-weight: 300;
+    font-size: 11px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mobile .title {
+    margin-bottom: 0;
+    margin-top: 43px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.mobile .subtitle {
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    color: #222222;
+}
